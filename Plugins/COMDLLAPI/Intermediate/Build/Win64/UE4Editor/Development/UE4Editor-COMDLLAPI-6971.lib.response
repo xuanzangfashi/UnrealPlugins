@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-COMDLLAPI-6971.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\UnrealProject9\PluginsCompil\Plugins\COMDLLAPI\Intermediate\Build\Win64\UE4Editor\Development\COMDLLAPI\Module.COMDLLAPI.cpp.obj"
+"D:\UnrealProject9\PluginsCompil\Plugins\COMDLLAPI\Intermediate\Build\Win64\UE4Editor\Development\COMDLLAPI\Module.COMDLLAPI.gen.cpp.obj"
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\COMDLLAPI\PCLaunch.rc.res"
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\UnrealProject9\PluginsCompil\Plugins\COMDLLAPI\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-COMDLLAPI-6971.lib"

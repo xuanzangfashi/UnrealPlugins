@@ -1,0 +1,7 @@
+D:\UnrealProject9\PluginsCompil\Source\PluginsCompil\PluginsCompil.Build.cs
+D:\UnrealProject9\PluginsCompil\Plugins\CaiLaoBan\Source\CaiLaoBan\CaiLaoBan.Build.cs
+D:\UnrealProject9\PluginsCompil\Plugins\COMDLLAPI\Source\COMDLLAPI\COMDLLAPI.Build.cs
+D:\UnrealProject9\PluginsCompil\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\LittleFatTransformMesh.Build.cs
+D:\UnrealProject9\PluginsCompil\Plugins\VRPlugin\Source\VRPlugin\VRPlugin.Build.cs
+D:\UnrealProject9\PluginsCompil\Source\PluginsCompil.Target.cs
+D:\UnrealProject9\PluginsCompil\Source\PluginsCompilEditor.Target.cs

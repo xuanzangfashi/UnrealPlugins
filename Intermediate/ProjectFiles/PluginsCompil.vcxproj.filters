@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PluginsCompil.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{CE90AFEB-5FF3-42EA-A57C-3195E910EFDB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PluginsCompil.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PluginsCompilEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C232D87E-324D-451C-9350-D92EEFCE32FF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{BA4C73ED-65B3-4EEF-9B48-6F279ACA2040}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CaiLaoBan">
+			<UniqueIdentifier>{2CAB9344-5A2F-41CA-831F-AC5871E323A8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CaiLaoBan\Source">
+			<UniqueIdentifier>{366494CB-D7CE-4D4A-B438-9ED54F6F684A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\CaiLaoBan\Source\CaiLaoBan">
+			<UniqueIdentifier>{54B3ADE1-FF11-4DC0-9EB1-753061FCE661}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\CaiLaoBan.Build.cs">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan</Filter>
+		</None >
+		<Filter Include="Plugins\CaiLaoBan\Source\CaiLaoBan\Private">
+			<UniqueIdentifier>{EE474410-8808-4465-90D8-CE50FE46BBCC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Private\CaiLaoBan.cpp">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Private\CaiLaoBanEdMode.cpp">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Private\CaiLaoBanEdModeToolkit.cpp">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\CaiLaoBan\Source\CaiLaoBan\Public">
+			<UniqueIdentifier>{85038DC0-CB06-4171-8BCE-9EF8ED91849F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Public\CaiLaoBan.h">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Public\CaiLaoBanEdMode.h">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\CaiLaoBan\Source\CaiLaoBan\Public\CaiLaoBanEdModeToolkit.h">
+			<Filter>Plugins\CaiLaoBan\Source\CaiLaoBan\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\CaiLaoBan\CaiLaoBan.uplugin">
+			<Filter>Plugins\CaiLaoBan</Filter>
+		</None >
+		<Filter Include="Plugins\CaiLaoBan\Resources">
+			<UniqueIdentifier>{F5BAB746-3C8C-47F1-820E-C59B123C6003}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\CaiLaoBan\Resources\Icon128.png">
+			<Filter>Plugins\CaiLaoBan\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\COMDLLAPI">
+			<UniqueIdentifier>{41FF8EE3-6941-420F-A866-871A47AC77C0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\COMDLLAPI\COMDLLAPI.uplugin">
+			<Filter>Plugins\COMDLLAPI</Filter>
+		</None >
+		<Filter Include="Plugins\COMDLLAPI\Resources">
+			<UniqueIdentifier>{26C61BE8-B0C5-4BDF-B96C-5B998E861D33}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\COMDLLAPI\Resources\Icon128.png">
+			<Filter>Plugins\COMDLLAPI\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\LittleFatTransformMesh">
+			<UniqueIdentifier>{8E2FF274-B206-4C1A-B421-22DA5D929B2F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\LittleFatTransformMesh\LittleFatTransformMesh.uplugin">
+			<Filter>Plugins\LittleFatTransformMesh</Filter>
+		</None >
+		<Filter Include="Plugins\LittleFatTransformMesh\Resources">
+			<UniqueIdentifier>{D591C941-EF56-4236-8B7A-AE332C5F9209}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\LittleFatTransformMesh\Resources\ButtonIcon_40x.png">
+			<Filter>Plugins\LittleFatTransformMesh\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\LittleFatTransformMesh\Resources\Icon128.png">
+			<Filter>Plugins\LittleFatTransformMesh\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\VRPlugin">
+			<UniqueIdentifier>{9AA1D6AB-4520-4D45-B201-82CAB33949C1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRPlugin\VRPlugin.uplugin">
+			<Filter>Plugins\VRPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRPlugin\Config">
+			<UniqueIdentifier>{60C17BDA-1C19-4AA3-BEBA-5FA9F1B595A2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRPlugin\Config\FilterPlugin.ini">
+			<Filter>Plugins\VRPlugin\Config</Filter>
+		</None >
+		<Filter Include="Plugins\VRPlugin\Resources">
+			<UniqueIdentifier>{17820F25-5A39-4B69-8E9C-A67314663B82}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRPlugin\Resources\Icon128.png">
+			<Filter>Plugins\VRPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\COMDLLAPI\Source">
+			<UniqueIdentifier>{36CEF60C-C806-46A0-A46E-9B3C9712D8AF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\COMDLLAPI\Source\COMDLLAPI">
+			<UniqueIdentifier>{FAA9CDCD-D4BD-49FD-B041-1815E07B3195}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\COMDLLAPI\Source\COMDLLAPI\COMDLLAPI.Build.cs">
+			<Filter>Plugins\COMDLLAPI\Source\COMDLLAPI</Filter>
+		</None >
+		<Filter Include="Plugins\COMDLLAPI\Source\COMDLLAPI\Private">
+			<UniqueIdentifier>{8B1BB305-BA8C-433E-A7E9-CE03D242BE04}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\COMDLLAPI\Source\COMDLLAPI\Private\COMDLLAPI.cpp">
+			<Filter>Plugins\COMDLLAPI\Source\COMDLLAPI\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\COMDLLAPI\Source\COMDLLAPI\Private\COMDLLAPIFunctionLibrary.cpp">
+			<Filter>Plugins\COMDLLAPI\Source\COMDLLAPI\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\COMDLLAPI\Source\COMDLLAPI\Public">
+			<UniqueIdentifier>{5F061DA9-22C1-473C-AE15-C41EC66B8CBD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\COMDLLAPI\Source\COMDLLAPI\Public\COMDLLAPI.h">
+			<Filter>Plugins\COMDLLAPI\Source\COMDLLAPI\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\COMDLLAPI\Source\COMDLLAPI\Public\COMDLLAPIFunctionLibrary.h">
+			<Filter>Plugins\COMDLLAPI\Source\COMDLLAPI\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\LittleFatTransformMesh\Source">
+			<UniqueIdentifier>{44C3873F-E8A9-40E1-8606-EDDEBF79C0CA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh">
+			<UniqueIdentifier>{73A1F71A-86AA-443B-A664-A4C2F8A90DFF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\LittleFatTransformMesh.Build.cs">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh</Filter>
+		</None >
+		<Filter Include="Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private">
+			<UniqueIdentifier>{03424D63-EFC8-4BF7-935B-B01E757A0B8A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private\LittleFatTransformMesh.cpp">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private\LittleFatTransformMeshPrivatePCH.h">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private\LittleFatTransformMeshStyle.cpp">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private\MeshGizmo.cpp">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public">
+			<UniqueIdentifier>{798F6A73-DA1F-4F54-8E44-1AD13D9D26C4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public\LittleFatTransformMesh.h">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public\LittleFatTransformMeshCommands.cpp">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public\LittleFatTransformMeshCommands.h">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public\LittleFatTransformMeshStyle.h">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public\MeshGizmo.h">
+			<Filter>Plugins\LittleFatTransformMesh\Source\LittleFatTransformMesh\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\VRPlugin\Source">
+			<UniqueIdentifier>{56C05089-40EF-424E-AA25-E4892230A5F4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VRPlugin\Source\VRPlugin">
+			<UniqueIdentifier>{8FE54587-21C8-41A5-A3AC-4F2333B5B277}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRPlugin\Source\VRPlugin\VRPlugin.Build.cs">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRPlugin\Source\VRPlugin\Private">
+			<UniqueIdentifier>{71CC05A2-E89A-475D-8055-DC6B0CE2E9C6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\FilesManager.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\FunctionLibrary.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\HttpDownLoadManager.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\HttpRequestManager.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\MathExFunctionLibrary.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\StringExFunctionLibrary.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\ThreadingManager.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\VRActor.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\VRGameModeEx.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\VRInterface.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\VRPawnEx.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\VRPlugin.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Private\XThreadObj.cpp">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRPlugin\Source\VRPlugin\Public">
+			<UniqueIdentifier>{9AE22DEB-6F2D-4D58-A3E5-16CCFC3CA80B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\FilesManager.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\FunctionLibrary.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\HttpDownLoadManager.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\HttpRequestManager.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\MathExFunctionLibrary.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\StringExFunctionLibrary.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\ThreadingManager.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\VRActor.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\VRGameModeEx.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\VRInterface.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\VRPawnEx.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\VRPlugin.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRPlugin\Source\VRPlugin\Public\XThreadObj.h">
+			<Filter>Plugins\VRPlugin\Source\VRPlugin\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\PluginsCompil">
+			<UniqueIdentifier>{D2E42EA2-CAD3-4CDF-8F8D-4D6E7379D73F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PluginsCompil\PluginsCompil.Build.cs">
+			<Filter>Source\PluginsCompil</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PluginsCompil\PluginsCompil.cpp">
+			<Filter>Source\PluginsCompil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PluginsCompil\PluginsCompil.h">
+			<Filter>Source\PluginsCompil</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PluginsCompil\PluginsCompilGameModeBase.cpp">
+			<Filter>Source\PluginsCompil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PluginsCompil\PluginsCompilGameModeBase.h">
+			<Filter>Source\PluginsCompil</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

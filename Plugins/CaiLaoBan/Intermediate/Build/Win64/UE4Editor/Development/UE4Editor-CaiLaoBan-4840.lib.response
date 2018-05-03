@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CaiLaoBan-4840.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\UnrealProject9\PluginsCompil\Plugins\CaiLaoBan\Intermediate\Build\Win64\UE4Editor\Development\CaiLaoBan\Module.CaiLaoBan.cpp.obj"
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\CaiLaoBan\PCLaunch.rc.res"
+"D:\GameEngines\UnrealEngines\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\UnrealProject9\PluginsCompil\Plugins\CaiLaoBan\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CaiLaoBan-4840.lib"

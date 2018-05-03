@@ -1,0 +1,7 @@
+auto UpdateDLC = GetUpdateDLC();
+
+if(storeName == "XXX" || UpdateDLC.open == true)
+{
+	return true;
+}
+return false;
